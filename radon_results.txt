@@ -1,0 +1,20 @@
+Johan --> taipy/gui/gui.py
+    M 980:4 Gui.__send_var_list_update - D
+-->    M 2384:4 Gui.run - D
+    M 601:4 Gui._manage_message - D
+    M 815:4 Gui.__serve_user_content - C
+    M 724:4 Gui._get_real_var_name - C
+    M 764:4 Gui._call_on_change - C
+    M 925:4 Gui.__upload_files - C
+-->    M 2304:4 Gui.__register_blueprint - C
+    M 427:4 Gui.__process_content_provider - C
+    M 556:4 Gui.__set_client_id_in_context - C
+    M 653:4 Gui.__front_end_update - C
+    M 683:4 Gui._update_var - C
+    M 1675:4 Gui.add_page - C
+-->    M 2117:4 Gui.__render_page - C
+    M 1382:4 Gui.__call_function_with_args - C
+    M 1593:4 Gui.__add_pages_in_folder - C
+
+16 blocks (classes, functions, methods) analyzed.
+Average complexity: C (15.5625)

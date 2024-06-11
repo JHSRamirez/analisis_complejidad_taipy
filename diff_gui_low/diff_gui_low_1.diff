@@ -1,0 +1,14 @@
+diff --git a/taipy/gui/gui.py b/taipy/gui/gui.py
+index 739f4f1b..331ab9b7 100644
+--- a/taipy/gui/gui.py
++++ b/taipy/gui/gui.py
+@@ -1502,6 +1502,9 @@ class Gui:
+         attributes.update({k: args_dict.get(v) for k, v in hashes.items()})
+         return attributes, hashes
+ 
++    def _compare_data(self, *data):
++        return data[0]
++
+     def _tbl_cols(
+         self, rebuild: bool, rebuild_val: t.Optional[bool], attr_json: str, hash_json: str, **kwargs
+     ) -> t.Union[str, _DoNotUpdate]:
